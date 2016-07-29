@@ -27,6 +27,6 @@ defmodule Xtr.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [{:hound, "~> 1.0.0"}]
   end
 end
